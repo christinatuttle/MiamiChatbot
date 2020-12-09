@@ -1,2 +1,2 @@
 # MiamiChatbot
-Command line chat bot that asks and records responses based on language of trigger
+Command line chat bot that asks questions based on language of user-supplied trigger
