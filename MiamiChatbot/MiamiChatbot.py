@@ -33,10 +33,12 @@ def set_language(trigger, prompts):
 
 
 def main():
-	prompts = []
-	responses = []
+	prompts = [] # array for prompts - to be filled once language of trigger is determined
+	responses = [] # array for responses - to be filled with user input
 
 	print("Welcome to the Miami Chatbot")
+	
+	# collect user input until correct trigger received
 	while True:
 		trigger = input("")
 		if set_language(trigger, prompts):
